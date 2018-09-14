@@ -1,0 +1,6 @@
+strcpy(pNuevo->palabra, cad);
+		pNuevo->cont++;
+		printf("%d %s\n", pNuevo->cont,cad);
+			
+				fscanf(pf, "%s", &cad);
+				strcpy(pNuevo->palabra, cad);
